@@ -10,6 +10,47 @@ body {
 	background: #3b4465;
 }
 
+.header-wrapper{
+	padding: 10px 0;
+	background-color: #999;
+}
+.container{
+	width: 90%;
+	margin: auto;
+}
+
+.d-flex{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	align-items: center;
+	align-content: center;
+}
+
+.left-col-logo{
+	flex: 0 0 30%;
+	width: 30%;
+}
+
+.right-col-menu{
+	flex: 0 0 70%;
+	width: 70%;
+}
+
+.main-nav ul{
+	display: flex;
+	justify-content: space-around;
+}
+
+.main-nav ul li  {
+	list-style:none;
+}
+.main-nav ul li a {
+	padding: 10px 20px;
+	text-decoration: none;
+	color: white;
+}
+
 .forms-section {
 	display: flex;
 	flex-direction: column;
